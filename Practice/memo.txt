@@ -1,0 +1,4 @@
+GitHubプッシュまでのコマンド
+git add ファイル
+git commit -m"コミットメッセージ"
+git push origin main
