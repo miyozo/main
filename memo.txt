@@ -1,0 +1,7 @@
+GitHubプッシュまでのコマンド
+git add ファイル
+git commit -m"コミットメッセージ"
+git push origin main
+
+eclipce便利コマンド
+・パッケージがimportされていないことでエラーが起きた場合、波線部分の終端部分にカーソルを合わせctrl+spaceでコンテンツアシスト機能(自動でパッケージのimport)を使用できる。
