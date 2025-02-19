@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>入力フォーム</title>
+<link rel="stylesheet" href="style.css"></head>
+</head>
+<body>
+
+	<h2>入力フォーム</h2>
+
+	<form action="input-servlet" method="POST">
+		【お名前】<br>
+		<input type="text" name="name" required><br><br>
+		【パスワード】<br>
+		<input type="password" name="password" required><br><br>
+		【性別】<br>
+		<input type="radio" name="gender" value="男">男　
+		<input type="radio" name="gender" value="女">女　
+		<input type="radio" name="gender" value="その他" checked>その他　<br><br>
+		【好物】<br>
+		<input type="checkbox" name="food" value="カレー">カレー　
+		<input type="checkbox" name="food" value="ラーメン">ラーメン　
+		<input type="checkbox" name="food" value="牛丼">牛丼　<br><br>
+		【趣味】<br>
+		<select name="hobby">
+			<option value="映画">映画</option>
+			<option value="スポーツ">スポーツ</option>
+			<option value="音楽">音楽</option>
+			<option value="その他" selected>その他</option>
+		</select><br><br><br>
+	
+		<input type="submit" value="送信">
+	</form>
+
+</body>
+</html>

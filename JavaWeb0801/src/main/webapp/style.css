@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body {
+	font-family: BIZ UDPゴシック;
+	background-color: #98fb98;
+	text-align: center;
+}
+
+h1 {
+	font-size: 32px;
+    color: green
+}
+
+h2 {
+	font-size: 28px;
+    background-color: green;
+    color: white
+}
