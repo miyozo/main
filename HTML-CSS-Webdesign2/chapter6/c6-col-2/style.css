@@ -1,0 +1,6 @@
+@charset "UTF-8";
+img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover; /* この一行を追加するだけ！ */
+}

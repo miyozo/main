@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/* 共通部分
+------------------------------- */
+html {
+    font-size: 100%;
+}
+body{
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
+    line-height: 1.7;
+    color: #432;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+
+/* ↓ 追加 ↓ ------------------------------- */
+
+/* レイアウト */
+.align-center {
+    text-align: center;
+}
+
+/* ヘッダー
+------------------------------- */
+.page-header {
+    padding-top: .5rem;
+}
+.logo {
+    width: 210px;
+}
+/* ↑ 追加 ↑ ------------------------------- */
