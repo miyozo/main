@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>お問い合わせフォーム</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h2>お問い合わせフォーム</h2>
+	
+	<form action="InputForm" method="post">
+		<br> 名前：<input type="text" name="name" placeholder="田中太郎" required> <br> 
+		<br> 性別：<input type="radio" name="gender" value="男" checked>男
+		           <input type="radio" name="gender" value="女">女
+				   <input type="radio" name="gender" value="その他">その他 <br>
+		<br> 電話番号：<input type="tel" name="tel" placeholder="08012345678" required> <br>
+		<br> メールアドレス：<input type="email" name="email" placeholder="1234@example.com" required> <br>
+		<br> お問い合わせ内容：
+		<br> <textarea name="message" placeholder="お問い合わせ内容を入力してください"></textarea>
+		<br><br><br> <input type="submit" value="送信">
+		
+	</form>
+
+</body>
+</html>
