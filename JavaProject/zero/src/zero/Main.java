@@ -1,10 +1,11 @@
 package zero;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
 	public static void main(String[] args) {
-		ArrayList<String> al1 = new ArrayList<>(); 
+		List<String> al1 = new ArrayList<>(); 
 		al1.add("国語");
 		al1.add("数学");
 		al1.add("英語");
