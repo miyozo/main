@@ -12,5 +12,9 @@ public class Sample3 {
 				こんばんは
 				""";
 		System.out.println(str);
+		
+		int a = 20;
+		int ans = a++;
+		System.out.println(ans);
 	}
 }

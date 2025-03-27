@@ -1,0 +1,14 @@
+package practice;
+
+import jp.kwebs.lib.Input;
+
+public class Sample5 {
+
+	public static void main(String[] args) {
+		
+		String str1 = Input.getString("文字列");
+		System.out.println("文字数=" + str1.length());
+		System.out.println("先頭から5文字=" + str1.substring(0,4));
+	}
+
+}

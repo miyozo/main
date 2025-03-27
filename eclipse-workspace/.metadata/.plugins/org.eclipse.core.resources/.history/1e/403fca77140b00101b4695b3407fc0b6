@@ -1,0 +1,13 @@
+package practice;
+
+import jp.kwebs.lib.Input;
+
+public class Sample1 {
+
+	public static void main(String[] args) {
+		double a = Input.getDouble();
+		double b = Math.toRadians(a);
+		System.out.printf("%6.3f",Math.sin(b));
+	}
+
+}
