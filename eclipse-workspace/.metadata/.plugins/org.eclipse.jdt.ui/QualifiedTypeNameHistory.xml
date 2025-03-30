@@ -2,4 +2,5 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="jp.kwebs.lib.Input"/>
+    <fullyQualifiedTypeName name="jp.kwebs.lib.Browser"/>
 </qualifiedTypeNameHistroy>
