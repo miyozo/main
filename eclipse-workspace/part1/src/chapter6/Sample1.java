@@ -1,26 +1,21 @@
 package chapter6;
 
-import jp.kwebs.lib.Browser;
-import jp.kwebs.lib.Input;
+import java.util.List;
 
 public class Sample1 {
 
 	public static void main(String[] args) {
-		String fname;
-		String seiza = Input.getString();
 		
-		switch(seiza) {
-			case "おひつじざ"	-> fname = "aries";
-			case "おうしざ"		-> fname = "taurus";
-			case "みずがめざ"	-> fname = "aquarius";
-			case "ししざ"			-> fname = "leo";
-			default						-> {
-				System.out.println("入力エラーです");
-				fname = "index";
-				}
-		}
-		String url = "https://www.asahi.com/uranai/12seiza/";
-		Browser.open(url + fname + ".html");
+		var book = new Book();
+		
+		var book1 = new Book("1011012345", "Java", "田中宏");
+		var book2 = new Book("8034012345", "JUMP", "佐藤敏");
+		
+		var books = List.of(
+				 new Book("1011012345", "Java", "田中宏"),
+				 new Book("8034012345", "JUMP", "佐藤敏"));
+		
+		System.out.println(book1);
 
 	}
 

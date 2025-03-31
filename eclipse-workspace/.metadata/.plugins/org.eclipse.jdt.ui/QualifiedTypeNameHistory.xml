@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="jp.kwebs.lib.Input"/>
     <fullyQualifiedTypeName name="jp.kwebs.lib.Browser"/>
+    <fullyQualifiedTypeName name="jp.kwebs.lib.Dice"/>
+    <fullyQualifiedTypeName name="jp.kwebs.lib.Input"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="jdk.internal.org.jline.terminal.TerminalBuilder.SystemOutput"/>
 </qualifiedTypeNameHistroy>
