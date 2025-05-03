@@ -3,6 +3,7 @@
     <fullyQualifiedTypeName name="jp.kwebs.lib.Browser"/>
     <fullyQualifiedTypeName name="jp.kwebs.lib.Dice"/>
     <fullyQualifiedTypeName name="jp.kwebs.lib.Input"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="jdk.internal.org.jline.terminal.TerminalBuilder.SystemOutput"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
 </qualifiedTypeNameHistroy>

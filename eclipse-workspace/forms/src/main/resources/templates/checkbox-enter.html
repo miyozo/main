@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>check box</title>
+</head>
+<body>
+	<form th:action="@{/checkbox}" method="post">
+		<input type="checkbox" name="article" value="政治">政治
+		<input type="checkbox" name="article" value="経済">経済
+		<input type="checkbox" name="article" value="社会">社会
+		<br><input type="submit" value="送信">
+	</form>
+
+</body>
+</html>

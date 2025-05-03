@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>drop down</title>
+</head>
+<body>
+	<form th:action="@{/dropdown}" method="post">
+		<select name="city">
+			<option value="">選択してください</option>
+			<option value="東京">東京</option>
+			<option value="大阪">大阪</option>
+			<option value="福岡">福岡</option>
+		</select>
+		<br><br><input type="submit" value="送信">
+	</form>
+
+</body>
+</html>

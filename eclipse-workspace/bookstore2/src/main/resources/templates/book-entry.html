@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>bookForm</title>
+</head>
+<body>
+	<h1>書籍データの入力</h1>
+	<form th:action="@{/book}" method="post">
+		<div>
+		書名：
+		<input type = "text" name="title">
+		<input type = "submit" value="送信">
+		</div>
+	</form>
+
+</body>
+</html>

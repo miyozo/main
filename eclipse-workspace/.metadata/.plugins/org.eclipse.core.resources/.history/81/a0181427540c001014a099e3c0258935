@@ -1,5 +1,0 @@
-package arraySample;
-
-public record Measurement() {
-
-}

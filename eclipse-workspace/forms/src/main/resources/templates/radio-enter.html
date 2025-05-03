@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>radio button</title>
+</head>
+<body>
+	<form th:action="@{/radio}" method="post">
+		<input type="radio" name="size" value="L">大きい
+		<input type="radio" name="size" value="M">普通
+		<input type="radio" name="size" value="S">小さい
+		<br>
+		<input type="submit" value="送信">
+		
+	</form>
+
+</body>
+</html>
