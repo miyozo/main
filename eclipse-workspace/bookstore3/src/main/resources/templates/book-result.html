@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>bookstore</title>
+</head>
+<body>
+	<h1>書籍データ</h1>
+		<table th:object="${bookForm}">
+			<tr>
+				<td>題　名：</td>
+				<td th:text="*{title}">Spring Boot</td>
+			</tr>
+			<tr>
+				<td>発行日：</td>
+				<td th:text="*{date}">2030-01-01</td>
+			</tr>
+			<tr>
+				<td>価　格：</td>
+				<td th:text="*{price}!=null ? *{price}+'円' : '未定' ">3200円</td>
+			</tr>
+			<tr>
+				<td>メディアタイプ：</td>
+				<td th:text="${#strings.listJoin(bookForm.mediaType, ' ,')}">印刷本</td>
+			</tr>
+		</table>
+</body>
+</html>

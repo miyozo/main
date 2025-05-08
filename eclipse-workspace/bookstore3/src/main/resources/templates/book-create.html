@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>book-create</title>
+<style>
+.msg{
+	color: red;
+	font-size: 0.8em;
+}
+</style>
+</head>
+<body>
+	<h1>書籍データ</h1>
+	<form th:action="@{/book/create}" method="post" th:object="${bookForm}">
+		<table>
+			<tr>
+				<td>題　名：</td>
+				<td>
+					<input type="text" th:field="*{title}">
+					<span th:errors="*{title}" class="msg"></span>
+				</td>
+			</tr>
+			<tr>
+				<td>発行日：</td>
+				<td>
+					<input type="date" th:field="*{date}">
+					<span th:errors="*{date}" class="msg"></span>
+				</td>
+			</tr>
+			<tr>
+				<td>価　格：</td>
+				<td>
+					<input type="number" th:field="*{price}">
+					<span th:errors="*{price}" class="msg"></span>
+				</td>
+			</tr>
+			<tr>
+				<td>タイプ：</td>
+				<td>
+					<input type="checkbox" th:field="*{mediaType}" value="印刷本">印刷本
+					<input type="checkbox" th:field="*{mediaType}" value="電子書籍">電子書籍
+					<input type="checkbox" th:field="*{mediaType}" value="オーディオブック">オーディオブック
+					<span th:errors="*{mediaType}" class="msg"></span>
+				</td>
+			</tr>
+		</table>
+		<input type="submit" value="作成">
+	</form>
+</body>
+</html>
